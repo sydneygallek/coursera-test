@@ -1,83 +1,96 @@
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background-color: #599e4b;
 }
+
 
 /** HEADER **/
+
 #header-nav {
-  background-color: #f6b319;
-  border-radius: 0;
-  border: 0;
+    background-color: #c98715;
+    border-radius: 0;
+    border: 0;
 }
 
-#logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
-  width: 150px;
-  height: 150px;
-  margin: 10px 15px 10px 0;
+#header-nav button {
+    margin-top: 22px;
 }
 
-.navbar-brand {
-  padding-top: 25px;
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+.navbar-collapse {
+    border-top: 0;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
+
+.navbar-brand h1 {
+    color: #7d1913;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
 }
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
 }
 
 #nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
+    background-color: #e4af34;
 }
 
-#phone {
-  margin-top: 5px;
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
 }
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #fce29e;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+    border: 1px solid #7d1913;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
 }
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section {
+    background-color: #82d06b;
+    box-shadow: 0 0 50px #0f5900;
+    padding: 30px;
+}
+
+/** END HOME PAGE **/
